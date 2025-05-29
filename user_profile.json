@@ -1,0 +1,215 @@
+{
+    "userId": "user_a7b3f9d2-e1c8-4b5a-9d0f-3e4c1b7a8d9e",
+    "createdDate": "2023-01-15T10:30:00Z",
+    "lastLoginDate": "2024-05-20T14:55:12Z",
+    "profileInfo": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@email.com",
+      "emailVerified": true,
+      "phoneNumbers": [
+        {
+          "type": "mobile",
+          "number": "+1-555-123-4567",
+          "verified": true
+        },
+        {
+          "type": "home",
+          "number": "+1-555-987-6543",
+          "verified": false
+        }
+      ],
+      "dateOfBirth": "1990-07-22"
+    },
+    "addresses": [
+      {
+        "addressId": "addr_1",
+        "type": "shipping",
+        "isDefaultShipping": true,
+        "isDefaultBilling": false,
+        "recipientName": "John Doe",
+        "street1": "123 Main St",
+        "street2": "Apt 4B",
+        "city": "Anytown",
+        "stateProvince": "CA",
+        "postalCode": "90210",
+        "country": "USA",
+        "deliveryInstructions": "Leave package at front door."
+      },
+      {
+        "addressId": "addr_2",
+        "type": "billing",
+        "isDefaultShipping": false,
+        "isDefaultBilling": true,
+        "recipientName": "John Doe",
+        "street1": "456 Oak Ave",
+        "street2": null,
+        "city": "Someville",
+        "stateProvince": "CA",
+        "postalCode": "90211",
+        "country": "USA"
+      }
+    ],
+    "preferences": {
+      "communication": {
+        "emailOptIn": {
+          "newsletter": true,
+          "promotions": true,
+          "orderUpdates": true
+        },
+        "smsOptIn": {
+          "promotions": false,
+          "deliveryUpdates": true
+        }
+      },
+      "favoriteColors": ["Navy Blue", "Emerald Green", "Walnut"],
+      "preferredRooms": ["Living Room", "Bedroom", "Home Office"],
+      "savedSearches": [
+        { "query": "velvet accent chair green", "savedDate": "2024-04-10T11:00:00Z"},
+        { "query": "walnut bookshelf narrow", "savedDate": "2024-05-01T16:20:00Z"}
+      ]
+    },
+    "purchaseHistory": [
+      {
+        "orderId": "ord_12345",
+        "orderDate": "2023-11-01T09:15:30Z",
+        "totalAmount": 899.99,
+        "currency": "USD",
+        "shippingAddressId": "addr_1",
+        "billingAddressId": "addr_2",
+        "status": "Delivered",
+        "items": [
+          {
+            "productId": "SKU-SOFA-MCM-NAVY",
+            "productName": "Mid-Century Modern Sofa - Navy Blue Velvet",
+            "quantity": 1,
+            "pricePerUnit": 899.99,
+            "category": "Sofas",
+            "style": "Mid-Century Modern",
+            "color": "Navy Blue",
+            "material": "Velvet"
+          }
+        ]
+      },
+      {
+        "orderId": "ord_67890",
+        "orderDate": "2024-03-15T14:05:00Z",
+        "totalAmount": 249.50,
+        "currency": "USD",
+        "shippingAddressId": "addr_1",
+        "billingAddressId": "addr_2",
+        "status": "Shipped",
+        "items": [
+          {
+            "productId": "SKU-LAMP-FLR-ARC-BLK",
+            "productName": "Arc Floor Lamp - Black Metal",
+            "quantity": 1,
+            "pricePerUnit": 129.75,
+            "category": "Lighting",
+            "style": "Modern",
+            "color": "Black",
+            "material": "Metal"
+          },
+          {
+            "productId": "SKU-TABLE-SD-RND-WHT",
+            "productName": "Round Side Table - White Marble Top",
+            "quantity": 1,
+            "pricePerUnit": 119.75,
+            "category": "Tables",
+            "style": "Modern",
+            "color": "White/Gold",
+            "material": "Marble/Metal"
+          }
+        ]
+      }
+    ],
+    "shoppingCart": {
+      "cartId": "cart_c9x8y7z6",
+      "lastUpdated": "2024-05-18T11:20:45Z",
+      "items": [
+        {
+          "productId": "SKU-CHAIR-ACC-GRN-VEL",
+          "productName": "Emerald Green Velvet Accent Chair",
+          "quantity": 1,
+          "pricePerUnit": 349.00,
+          "currency": "USD",
+          "addedDate": "2024-05-18T11:20:45Z",
+          "variantInfo": {
+            "color": "Emerald Green",
+            "legs": "Gold"
+          },
+          "category": "Chairs",
+          "style": "Glam"
+        }
+      ],
+      "potentialSavings": 20.00, 
+      "potentialPromoCode": "SAVE20"
+    },
+    "savedItems": { 
+      "defaultListId": "wish_default_john",
+      "lists": [
+        {
+          "listId": "wish_default_john",
+          "listName": "My Wishlist",
+          "createdDate": "2023-05-10T00:00:00Z",
+          "items": [
+            {
+              "productId": "SKU-RUG-LRG-GEO-GRY",
+              "productName": "Geometric Pattern Area Rug - Grey/White (8x10)",
+              "savedDate": "2024-02-20T18:00:00Z",
+              "currentPrice": 299.00, 
+              "currency": "USD",
+              "notes": "Might match the new sofa?",
+              "category": "Rugs",
+              "style": "Geometric"
+            },
+            {
+              "productId": "SKU-BOOKSHELF-WALNUT-5T",
+              "productName": "Tall Walnut Bookshelf - 5 Tiers",
+              "savedDate": "2024-04-25T09:30:15Z",
+              "currentPrice": 199.50,
+              "currency": "USD",
+              "notes": "For the home office.",
+              "category": "Shelving",
+              "style": "Mid-Century Modern"
+            }
+          ]
+        },
+        {
+          "listId": "wish_patio_ideas",
+          "listName": "Patio Ideas",
+          "createdDate": "2024-05-05T13:00:00Z",
+          "items": [
+             {
+              "productId": "SKU-PATIO-SET-BISTRO-RED",
+              "productName": "3-Piece Metal Bistro Set - Red",
+              "savedDate": "2024-05-05T13:05:00Z",
+              "currentPrice": 149.99,
+              "currency": "USD",
+              "notes": null,
+              "category": "Outdoor Furniture",
+              "style": "Classic"
+            }
+          ]
+        }
+      ]
+    },
+    "recommendationProfile": { 
+       "viewedProductIds": ["SKU-CHAIR-ACC-GRN-VEL", "SKU-BOOKSHELF-WALNUT-5T", "SKU-LAMP-TBL-GLD-BS", "SKU-SOFA-MCM-NAVY"], 
+       "lastViewTimestamp": "2024-05-20T14:50:00Z",
+       "inferredStyles": ["Mid-Century Modern", "Modern", "Glam"], 
+       "inferredCategories": ["Sofas", "Lighting", "Tables", "Chairs", "Shelving", "Rugs"],
+       "inferredPriceRangePreference": { 
+           "chairs": {"min": 150, "max": 400},
+           "sofas": {"min": 800, "max": 1200},
+           "lighting": {"min": 100, "max": 200}
+       },
+       "affinityScores": { 
+          "category:Sofas": 0.8,
+          "category:Lighting": 0.6,
+          "style:Mid-Century Modern": 0.9,
+          "color:Navy Blue": 0.7,
+          "color:Green": 0.6
+       }
+    }
+  }
